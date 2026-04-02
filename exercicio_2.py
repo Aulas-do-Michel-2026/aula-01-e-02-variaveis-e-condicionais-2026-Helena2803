@@ -13,3 +13,8 @@ Digite o peso do paciente (em kg):
 Resposta:
 Média: 140 mg
 """
+
+peso = 70
+formula = 2 * peso
+
+print(f'a dose do paciente é {formula} mg')
