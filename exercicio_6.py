@@ -46,6 +46,24 @@ Quantos reais você quer converter? 100
 Resposta:
 18000.00 ARS
 
+pais = input("Digite um pais: ")
+valor = float(input("Digite um valor: "))
+valor_em_dolar = valor / 5
+valor_em_peso = valor * 180
+valor_em_ienes= valor * 30
+
+if pais == "Estados Unidos":
+    valor = float(input("Digite um valor: "))
+    print(f'{valor_em_dolar} USD')
+elif pais == "Argentina":
+    valor = float(input("Digite um valor: "))
+    print(f'{valor_em_peso} ARS')
+elif pais == "Japao":
+    valor = float(input("Digite um valor: "))
+    print(f'{valor_em_ienes} JPY')
+else:
+    print(f'nao temos essa moeda em caixa')
+
 -------------------------------------------
 Qual país você vai viajar? China
 
